@@ -499,6 +499,15 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
   integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
 
+"@types/react@*":
+  version "17.0.13"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.13.tgz#6b7c9a8f2868586ad87d941c02337c6888fb874f"
+  integrity sha512-D/G3PiuqTfE3IMNjLn/DCp6umjVCSvtZTPdtAFy5+Ved6CsdRvivfKeCzw79W4AatShtU4nGqgvOv5Gro534vQ==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
 "@types/react@17.0.11":
   version "17.0.11"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.11.tgz#67fcd0ddbf5a0b083a0f94e926c7d63f3b836451"
@@ -519,6 +528,13 @@
   integrity sha512-R+JxEZYa5T0HD2urViR/mdklVaGhwbNOtDoWWGQ1+z1CGs/gF1UAKCaS//YwsUwterEKpyaKxgaXyFNKF04GCA==
   dependencies:
     csstype "^3.0.2"
+
+"@types/victory@^33.1.5":
+  version "33.1.5"
+  resolved "https://registry.yarnpkg.com/@types/victory/-/victory-33.1.5.tgz#de1ee8ddc685582b9e394baff03606f87d627d4b"
+  integrity sha512-Lpi1kAlZ4+gY7oH3tRcmJs4YhTIJTTJxkQkyYTK7CtTHl+S6Xf7E7e207eq6D/Dn9UQAB7PCrNrzTGtO5+9GGQ==
+  dependencies:
+    "@types/react" "*"
 
 "@typescript-eslint/eslint-plugin@^4.28.0":
   version "4.28.0"
